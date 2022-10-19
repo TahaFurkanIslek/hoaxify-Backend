@@ -1,0 +1,9 @@
+2022-10-16 00:59:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM USERS"; expected "identifier"; SQL statement:
+DELETE * FROM USERS [42001-214]
+2022-10-16 00:59:42 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]DELETEUSERS  * FROM USERS"; expected "DELETE, DROP, DECLARE, DEALLOCATE"; SQL statement:
+DELETEUSERS  * FROM USERS [42001-214]
+2022-10-16 00:59:48 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM USERS"; expected "identifier"; SQL statement:
+DELETE * FROM USERS [42001-214]
