@@ -37,9 +37,7 @@ public class ErrorHandler implements ErrorController{
 			}
 			error.setValidationErrors(validationErrors);
 		}
-		
-		
-		
+				
 		return error;
 	}
 	
