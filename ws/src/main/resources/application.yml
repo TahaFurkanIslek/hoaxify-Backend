@@ -1,4 +1,7 @@
 spring:
+  profiles:
+    active:
+    - dev
   jpa:
     properties:
       javax:
@@ -10,3 +13,20 @@ spring:
       pageable:
         default-page-size: 10
         max-page-size: 100
+  servlet:
+    multipart:
+      max-file-size: 10MB
+        
+hoaxify:
+  upload-path: picture-storage        
+---
+spring:
+  profiles: production
+hoaxify:
+  upload-path: storage-production
+--- 
+spring:
+  profiles: dev
+hoaxify:
+  upload-path: storage-dev
+ 
